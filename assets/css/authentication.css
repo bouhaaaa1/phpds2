@@ -1,0 +1,175 @@
+.authentication .card-plain {
+    border-radius: .25rem;
+    padding-bottom: .7rem;
+    max-width: 320px
+}
+
+.authentication .card-plain .btn-wd {
+    min-width: 180px
+}
+
+.authentication .card-plain .logo-container {
+    width: 65px;
+    margin: 0 auto
+}
+
+.authentication .card-plain .logo-container img {
+    width: 100%
+}
+
+.authentication .card-plain.card-plain {
+    margin: 0 auto
+}
+
+.authentication .card-plain.card-plain .form-control::-moz-placeholder {
+    color: #ebebeb;
+    opacity: 1;
+    filter: alpha(opacity=100)
+}
+
+.authentication .card-plain.card-plain .form-control:-moz-placeholder {
+    color: #ebebeb;
+    opacity: 1;
+    filter: alpha(opacity=100)
+}
+
+.authentication .card-plain.card-plain .form-control::-webkit-input-placeholder {
+    color: #ebebeb;
+    opacity: 1;
+    filter: alpha(opacity=100)
+}
+
+.authentication .card-plain.card-plain .form-control:-ms-input-placeholder {
+    color: #ebebeb;
+    opacity: 1;
+    filter: alpha(opacity=100)
+}
+
+.authentication .card-plain.card-plain .form-control {
+    border-color: rgba(255, 255, 255, 0.5);
+    color: #fff
+}
+
+.authentication .card-plain.card-plain .form-control:focus {
+    border-color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff
+}
+
+.authentication .card-plain.card-plain .has-success:after,
+.authentication .card-plain.card-plain .has-danger:after {
+    color: #fff
+}
+
+.authentication .card-plain.card-plain .has-danger .form-control {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.authentication .card-plain.card-plain .input-group-addon {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(255, 255, 255, 0.5);
+    color: #fff
+}
+
+.authentication .card-plain.card-plain .input-group-focus .input-group-addon {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #fff;
+    color: #fff
+}
+
+.authentication .card-plain.card-plain .form-group.form-group-no-border .form-control,
+.authentication .card-plain.card-plain .input-group.form-group-no-border .form-control {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff
+}
+
+.authentication .card-plain.card-plain .form-group.form-group-no-border .form-control:focus,
+.authentication .card-plain.card-plain .form-group.form-group-no-border .form-control:active,
+.authentication .card-plain.card-plain .form-group.form-group-no-border .form-control:active,
+.authentication .card-plain.card-plain .input-group.form-group-no-border .form-control:focus,
+.authentication .card-plain.card-plain .input-group.form-group-no-border .form-control:active,
+.authentication .card-plain.card-plain .input-group.form-group-no-border .form-control:active {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff
+}
+
+.authentication .card-plain.card-plain .form-group.form-group-no-border .form-control+.input-group-addon,
+.authentication .card-plain.card-plain .input-group.form-group-no-border .form-control+.input-group-addon {
+    background-color: rgba(255, 255, 255, 0.2)
+}
+
+.authentication .card-plain.card-plain .form-group.form-group-no-border .form-control+.input-group-addon:focus,
+.authentication .card-plain.card-plain .form-group.form-group-no-border .form-control+.input-group-addon:active,
+.authentication .card-plain.card-plain .form-group.form-group-no-border .form-control+.input-group-addon:active,
+.authentication .card-plain.card-plain .input-group.form-group-no-border .form-control+.input-group-addon:focus,
+.authentication .card-plain.card-plain .input-group.form-group-no-border .form-control+.input-group-addon:active,
+.authentication .card-plain.card-plain .input-group.form-group-no-border .form-control+.input-group-addon:active {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff
+}
+
+.authentication .card-plain.card-plain .form-group.form-group-no-border .form-control:focus+.input-group-addon,
+.authentication .card-plain.card-plain .input-group.form-group-no-border .form-control:focus+.input-group-addon {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff
+}
+
+.authentication .card-plain.card-plain .form-group.form-group-no-border .input-group-addon,
+.authentication .card-plain.card-plain .input-group.form-group-no-border .input-group-addon {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #fff
+}
+
+.authentication .card-plain.card-plain .form-group.form-group-no-border.input-group-focus .input-group-addon,
+.authentication .card-plain.card-plain .input-group.form-group-no-border.input-group-focus .input-group-addon {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff
+}
+
+.authentication .card-plain.card-plain .input-group-addon,
+.authentication .card-plain.card-plain .form-group.form-group-no-border .input-group-addon,
+.authentication .card-plain.card-plain .input-group.form-group-no-border .input-group-addon {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.authentication .link {
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none
+}
+
+.authentication .n_logo {
+    display: inline-block
+}
+
+.authentication .navbar {
+    background: transparent !important
+}
+
+.authentication .navbar a:not(.btn) {
+    font-size: 14px !important;
+    text-transform: none !important
+}
+
+.authentication .navbar-nav li a i {
+    vertical-align: middle
+}
+
+.authentication .navbar-nav li .btn {
+    line-height: 20px !important
+}
+
+@media screen and (min-width: 992px) {
+    .authentication .navbar-collapse {
+        float: right;
+        justify-content: flex-end
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .authentication .footer nav {
+        display: block;
+        float: none
+    }
+}

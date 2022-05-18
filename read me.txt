@@ -1,0 +1,5 @@
+page for user : shopit.php
+page admin : dashboard.php
+/////////////////////
+user : root@root
+password : 123++-+*/Mg

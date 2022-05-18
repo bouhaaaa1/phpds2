@@ -1,0 +1,227 @@
+/**********ADD ARTICLE**************/
+
+.container1 {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 30px;
+    color: #777;
+}
+
+.container1 {
+    max-width: 60%;
+    width: 100%;
+    margin: 0 auto;
+    position: relative
+}
+
+.container1 {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+    background: #F9F9F9;
+    padding: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24)
+}
+
+.container1 h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px
+}
+
+.container1 h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400
+}
+
+.container1 input[type="text"],
+.container1 input[type="email"],
+.container1 input[type="tel"],
+.container1 input[type="url"],
+.container1 textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px
+}
+
+.container1 input[type="text"]:hover,
+.container1 input[type="email"]:hover,
+.container1 input[type="tel"]:hover,
+.container1 input[type="url"]:hover,
+.container1 textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa
+}
+
+.container1 textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none
+}
+
+.container1 input[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #f0715f;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px
+}
+
+.container1 input[type="submit"]:hover {
+    background: #f07150;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out
+}
+
+.container1 input[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5)
+}
+
+.container1 input[type="button"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #f0715f;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px
+}
+
+.container1 input[type="button"]:hover {
+    background: #f07150;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out
+}
+
+.container1 input[type="button"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5)
+}
+
+.container1 input:focus,
+.container1 textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa
+}
+
+::-webkit-input-placeholder {
+    color: #888
+}
+
+:-moz-placeholder {
+    color: #888
+}
+
+::-moz-placeholder {
+    color: #888
+}
+
+:-ms-input-placeholder {
+    color: #888
+}
+
+
+/* IMAGE ADD */
+
+.file-upload {
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.file-upload-btn {
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    background: #3c97ff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #4aaeff;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.file-upload-btn:hover {
+    background: #5da9ff;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.file-upload-btn:active {
+    border: 0;
+    transition: all .2s ease;
+}
+
+.file-upload-content {
+    display: none;
+    text-align: center;
+}
+
+.file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.image-upload-wrap {
+    margin-top: 10px;
+    border: 4px dashed #ffffff;
+    position: relative;
+}
+
+.image-title-wrap {
+    padding: 15px 15px 15px 15px;
+    color: #222;
+}
+
+.file-upload-image {
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+.remove-image {
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    background: #cd4535;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #b02818;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.remove-image:hover {
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.remove-image:active {
+    border: 0;
+    transition: all .2s ease;
+}
